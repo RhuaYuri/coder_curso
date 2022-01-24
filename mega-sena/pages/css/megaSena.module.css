@@ -1,0 +1,32 @@
+.conteiner{
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin: 20px;
+    border-radius: 50px;
+    background-color: blue;
+    color: #fff;
+}
+
+.input{
+    width: 50vh;
+    border: darkblue;
+}
