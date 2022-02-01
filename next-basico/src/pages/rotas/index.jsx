@@ -24,13 +24,13 @@ export default function index(){
         <div>
             <h1>Rotas Index</h1>
             <ul>
-                <Link href="/rotas/params?id=12&nome=Yuri">
+                <Link href="/rotas/params?id=12&nome=Yuri" passHref>
                     <li>Parms</li>
                 </Link>
-                <Link href="/rotas/123/buscar">
+                <Link href="/rotas/123/buscar" passHref>
                     <li>Buscar</li>
                 </Link>
-                <Link href="/rotas/123/daniel">
+                <Link href="/rotas/123/daniel" passHref>
                     <li>Dinamico</li>
                 </Link>
             </ul>

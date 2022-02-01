@@ -10,8 +10,10 @@ export default function buscar(){
     return (
         <div>
             <h1>Rotas / {codigo} / Buscar</h1>
-            <Link href="/rotas">
-                <button>Voltar</button>
+            <Link href="/rotas" passHref>
+                <a>
+                    <button>Voltar</button>
+                </a>
             </Link>
         </div>
     )
